@@ -20,3 +20,10 @@
 pubspec.yaml을 다음과 같이 수정합니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/217136886-e1c07ce1-6f09-429b-b29c-64b8f7264762.png)
+
+## 홈 화면 위젯을 두 개로 나누고 배치하기
+```
+Home Screen 화면 위젯 ui를 _DDay와 _CoupleImage stless 클래스 위젯을 생성하여 두 개로 나누고
+Column을 사용해서 두 개를 화면의 양 끝으로 배치하였습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/217138393-372493d0-7c23-4951-a0ea-a52260d886d9.png)
