@@ -89,3 +89,19 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+assets:
+  - asset/img/ # 이미지를 프로젝트에 포함시키기
+
+fonts:
+  - family: parisienne # family 키에 폰트 이름을 지정
+    fonts:
+      - asset: asset/font/Parisienne-Regular.ttf # 등록할 폰트 파일의 위치
+
+  - family: sunflower
+    fonts:
+      - asset: asset/font/Sunflower-Light.ttf
+      - asset: asset/font/Sunflower-Medium.ttf
+        weight: 500 # 폰트 두께
+      - asset: asset/font/Sunflower-Bold.ttf
+        weight: 700
