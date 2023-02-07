@@ -27,3 +27,14 @@ Home Screen 화면 위젯 ui를 _DDay와 _CoupleImage stless 클래스 위젯을
 Column을 사용해서 두 개를 화면의 양 끝으로 배치하였습니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/217138393-372493d0-7c23-4951-a0ea-a52260d886d9.png)
+
+## 핑크색 배경을 적용하고 _CoupleImage 위젯에 커플 이미지를 추가하기
+```
+Scaffold의 backgrounㅇ에서 배경색을 핑크색으로 변경하고
+_CoupleImage 위젯에 asset/img/middle_image.png 커플 이미지를 Image.asset을 사용하여 추가해주었습니다.
+MediaQuery로 MaterialApp의 화면 전체의 반의 크기를 차지하도록 설정하였습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/217140807-3b3d4bbd-a4c6-4cf4-baf7-0afdd044b3d6.png)
+
+### [핑크색 배경과 커플 이미지를 적용한 모습]
+![image](https://user-images.githubusercontent.com/58906858/217141040-5db7418b-4330-4ece-bd50-4827dded6e0c.png)
