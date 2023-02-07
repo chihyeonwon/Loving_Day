@@ -28,4 +28,3 @@ class _CoupleImage extends StatelessWidget {
     return Text('Couple Image Widget');
   }
 }
-
