@@ -31,6 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
             _DDay(
               // 하트 눌렀을 때 실행할 함수 전달하기
               onHeartPressed: onHeartPressed,
+              firstDay: firstDay,
             ),
             _CoupleImage(),
           ]
@@ -45,9 +46,12 @@ class _HomeScreenState extends State<HomeScreen> {
 class _DDay extends StatelessWidget {
   // 하트 눌렀을 때 실행할 함수
   final GestureTapCallback onHeartPressed;
-
+  // 사귀기 시작한 날
+  final DateTime firstDay;
+  
   _DDay({
     required this.onHeartPressed, // 상위에서 함수 입력받기
+    required this.firstDay, // 날짜 변수로 입력받기
   });
 
   @override
@@ -73,7 +77,7 @@ class _DDay extends StatelessWidget {
           style:textTheme.bodyText1,
         ),
         Text( // 임시로 지정한 만난 날짜
-          '2021.11.23',
+          '${firstDay.year}.${firstDay.month}.${firstDay.day}',
           style:textTheme.bodyText2,
         ),
         const SizedBox(
