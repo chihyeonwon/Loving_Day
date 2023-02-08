@@ -82,3 +82,14 @@ overflow 오버플로 현상이 발생하였습니다. 텍스트나 이미지의
 
 ### [이미지의 Center 위젯을 Expanded로 감싸서 문제 해결]
 ![image](https://user-images.githubusercontent.com/58906858/217425582-bfb0f7dd-ffc5-4ff4-8caf-9d689a85cb8e.png)
+
+## 하트 아이콘의 콜백 함수 생성
+```
+setState()를 사용한 상태관리를 하기 위해 HomeScreen을 stless 위젯에서 stful 위젯으로 변환합니다.
+
+하트를 눌렀을 때 날짜를 고를 수 있는 UI가 나오며 날짜가 변경될 때마다 firstDay를 변경하기 위해서
+firstDay를 오늘 날짜로 초기화하고 하트 아이콘에 onPressedHeart 함수를 호출하는 데 이를 생성자로 받기 위해서
+콜백 함수 형태로 만들었습니다. 하트를 눌렀을 때 클릭이 출력되도록 설정하고 테스트하였습니다.
+```
+### [하트를 눌렀을 때]
+![image](https://user-images.githubusercontent.com/58906858/217429282-cd879d8d-c464-4855-ba32-3b2fe73a2058.png)
