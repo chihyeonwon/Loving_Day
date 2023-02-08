@@ -53,6 +53,7 @@ class _DDay extends StatelessWidget {
         ),
         Text( // 임시로 지정한 만난 날짜
           '2021.11.23',
+          style:textTheme.bodyText2,
         ),
         const SizedBox(
           height: 16.0,
