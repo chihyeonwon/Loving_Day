@@ -38,6 +38,15 @@ class _DDay extends StatelessWidget {
         ),
         Text(
           'U&I',
+        ),
+        const SizedBox(
+          height:16.0,
+        ),
+        Text(
+          '우리 처음 만난 날',
+        ),
+        Text( // 임시로 지정한 만난 날짜
+          '2021.11.23',
         )
       ]
     );
