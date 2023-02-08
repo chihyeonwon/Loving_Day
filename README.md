@@ -101,3 +101,14 @@ firstDay를 오늘 날짜로 초기화하고 하트 아이콘에 onPressedHeart 
 ```
 ### [만나기 시작한 날짜 (firstDay 오늘 날)
 ![image](https://user-images.githubusercontent.com/58906858/217430885-633aae93-8621-4342-aa6b-30c16b98a568.png)
+
+## 만난 후 며칠 지났는 지 날짜 출력 (DDay)
+```
+현재 날짜에서 만난 날 날짜를 빼면 며칠 지났는 지가 나오고 그 기간 차이를 일수로 계산하고 (inDays) 1을 더해주었습니다.
+현재 날짜를 now 변수에 저장하고 만난 날 날짜 firstDay의 차이(Difference)를 계산하여 출력하였습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/217431636-f9a33307-e473-4557-bd1b-ca86bafb08fc.png)   
+![image](https://user-images.githubusercontent.com/58906858/217431687-9478920a-2f36-45ca-86c4-1f628260355b.png)   
+![image](https://user-images.githubusercontent.com/58906858/217431762-de25e149-d1f4-441e-a76d-d82fc1b87b81.png)
+
+
