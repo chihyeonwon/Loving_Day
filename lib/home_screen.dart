@@ -10,6 +10,10 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   DateTime firstDay = DateTime.now();
 
+  void onHeartPressed() {
+    print('클릭');
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,7 +28,10 @@ class _HomeScreenState extends State<HomeScreen> {
           // 반대축 최대 크기로 늘리기
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children:[
-            _DDay(),
+            _DDay(
+              // 하트 눌렀을 때 실행할 함수 전달하기
+              onHeartPressed: onHeartPressed,
+            ),
             _CoupleImage(),
           ]
         )
@@ -33,8 +40,15 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
+
+
 class _DDay extends StatelessWidget {
-  const _DDay({Key? key}) : super(key: key);
+  // 하트 눌렀을 때 실행할 함수
+  final GestureTapCallback onHeartPressed;
+
+  _DDay({
+    required this.onHeartPressed, // 상위에서 함수 입력받기
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -67,7 +81,7 @@ class _DDay extends StatelessWidget {
         ),
         IconButton(
           iconSize:60.0,
-          onPressed:(){},
+          onPressed:onHeartPressed,
           icon:Icon(
             Icons.favorite,
             color:Colors.red,
