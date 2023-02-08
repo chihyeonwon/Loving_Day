@@ -93,3 +93,11 @@ firstDay를 오늘 날짜로 초기화하고 하트 아이콘에 onPressedHeart 
 ```
 ### [하트를 눌렀을 때]
 ![image](https://user-images.githubusercontent.com/58906858/217429282-cd879d8d-c464-4855-ba32-3b2fe73a2058.png)
+
+## 만나기 시작한 날짜 렌더링
+```
+만나기 시작한 날짜 firstDay를 생성자로 전달받아서 텍스트 위젯에 Datetime을 년.월.일 형태로 텍스트 바인딩을 사용해서
+변경하였습니다.
+```
+### [만나기 시작한 날짜 (firstDay 오늘 날)
+![image](https://user-images.githubusercontent.com/58906858/217430885-633aae93-8621-4342-aa6b-30c16b98a568.png)
