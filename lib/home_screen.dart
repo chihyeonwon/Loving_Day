@@ -63,6 +63,7 @@ class _DDay extends StatelessWidget {
           onPressed:(){},
           icon:Icon(
             Icons.favorite,
+            color:Colors.red,
           ),
         ),
         const SizedBox(
