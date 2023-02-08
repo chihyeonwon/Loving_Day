@@ -31,6 +31,10 @@ class _DDay extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    // 테마 불러오기
+    final textTheme = Theme.of(context).textTheme;
+
     return Column(
       children:[
         const SizedBox(
