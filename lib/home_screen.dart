@@ -71,6 +71,7 @@ class _DDay extends StatelessWidget {
         ),
         Text( // 만난 후 DDay
           'D+365',
+          style:textTheme.headline2,
         ),
       ],
     );
