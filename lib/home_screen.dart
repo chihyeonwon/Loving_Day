@@ -60,6 +60,9 @@ class _DDay extends StatelessWidget {
     // 테마 불러오기
     final textTheme = Theme.of(context).textTheme;
 
+    // 현재 날짜 시간
+    final now = DateTime.now();
+
     return Column(
       children:[
         const SizedBox(
@@ -95,7 +98,8 @@ class _DDay extends StatelessWidget {
           height:16.0,
         ),
         Text( // 만난 후 DDay
-          'D+365',
+          // DDay 계산하기
+          'D+${DateTime(now.year, now.month, now.day).difference(firstDay).inDays + 1}',
           style:textTheme.headline2,
         ),
       ],
