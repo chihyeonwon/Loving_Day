@@ -49,6 +49,7 @@ class _DDay extends StatelessWidget {
         ),
         Text(
           '우리 처음 만난 날',
+          style:textTheme.bodyText1,
         ),
         Text( // 임시로 지정한 만난 날짜
           '2021.11.23',
