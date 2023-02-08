@@ -38,3 +38,12 @@ MediaQuery로 MaterialApp의 화면 전체의 반의 크기를 차지하도록 �
 
 ### [핑크색 배경과 커플 이미지를 적용한 모습]
 ![image](https://user-images.githubusercontent.com/58906858/217141040-5db7418b-4330-4ece-bd50-4827dded6e0c.png)
+
+## 상단 텍스트 추가
+```
+앱 상단에는 여러 Text 위젯과 하트 아이콘 위젯으로 이루어져 있습니다.
+
+사귀기 시작한 날짜와 며칠이 지났는지 표시하는 글자는 날짜가 변경될 때마다 
+자동으로 바뀌게 코딩해야 하지만 일단은 임의의 글자들을 넣어두었습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/217420055-4b96f0b4-ad36-413c-b3a1-19ff2b42ebc1.png)
