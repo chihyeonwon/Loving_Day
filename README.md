@@ -47,3 +47,25 @@ MediaQuery로 MaterialApp의 화면 전체의 반의 크기를 차지하도록 �
 자동으로 바뀌게 코딩해야 하지만 일단은 임의의 글자들을 넣어두었습니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/217420055-4b96f0b4-ad36-413c-b3a1-19ff2b42ebc1.png)
+
+## Theme을 사용하여 텍스트 스타일 지정하기
+```
+Text 위젯에 스타일을 Theme을 사용하여 지정할 수 있습니다.
+
+fontFamily : 기본 글씨체를 지정
+textTheme : Text 위젯 테마를 지정
+
+headline1, bodyText1, bodyText2, headline2 임의의 스타일명을 지정해주고
+각 스타일명에 따라 적용할 스타일을 지정해줍니다.
+
+테마를 불러오고 각 Text위젯에 스타일을 적용해줍니다.
+```
+### [텍스트 테마 생성]
+![image](https://user-images.githubusercontent.com/58906858/217424134-cced2716-507c-4a5a-a4dd-ef001fcbbc24.png)
+
+### [텍스트 테마 적용 (일부)]
+![image](https://user-images.githubusercontent.com/58906858/217424345-9e0ffaac-d32f-48e3-8271-0affbf378a7c.png)   
+![image](https://user-images.githubusercontent.com/58906858/217424224-bba39329-7d2e-402f-9157-0b1f85ddb6c0.png)
+
+### [테마를 적용한 후]
+![image](https://user-images.githubusercontent.com/58906858/217423985-aec5380d-a555-49d6-8587-de738f6497d2.png)
