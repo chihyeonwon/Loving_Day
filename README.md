@@ -3,7 +3,7 @@
 ```
 개발 툴 : Flutter
 개발 언어 : Dart
-개발 일시 : 2023-02-07 ~ 
+개발 일시 : 2023-02-07 ~ 2023-02-09
 개발자 : Won Chi Hyeon
 ```
 
@@ -12,6 +12,17 @@
 기능 : 사용자가 직접 원하는 날짜를 선택할 수 있다.
        날짜 선택 시 실시간으로 화면의 D-Day 및 만난 날 업데이트
 ```
+
+## 앱 최종 화면 및 기능
+### [홈 화면]
+![image](https://user-images.githubusercontent.com/58906858/217712284-8351bb9f-0b00-41ba-abd9-bcdf5ed7a9f3.png)
+
+### [하트를 눌렀을 때 만난 날짜를 변경하는 기능]
+![image](https://user-images.githubusercontent.com/58906858/217712434-cb8759d9-26b9-452b-8533-9b6d57d1051a.png)
+
+### [만난 날짜가 변경된 홈 화면]
+![image](https://user-images.githubusercontent.com/58906858/217712504-3725cb4c-d415-46d5-a638-8f291e4715c2.png)
+
 
 ## 필요한 이미지, 폰트 추가하기
 [이미지, 폰트 다운로드 사이트](https://github.com/codefactory-co/golden-rabbit-flutter-novice/tree/main/ch09/u_and_i/asset)
