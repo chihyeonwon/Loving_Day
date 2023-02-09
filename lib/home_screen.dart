@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+// 쿠퍼티노(iOS) 위젯을 사용하기 위해 필요
+import 'package:flutter/cupertino.dart';
+
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
 
