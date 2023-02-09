@@ -120,4 +120,14 @@ firstDay를 오늘 날짜로 초기화하고 하트 아이콘에 onPressedHeart 
 ### [하트를 눌렀을 때]
 ![image](https://user-images.githubusercontent.com/58906858/217709193-19430727-35cd-42a4-a5a2-9cf216ce4873.png)
 
+## 하트에 만난 날짜를 선택하는 쿠퍼티노 다이얼로그 추가
+```
+하트에 실제로 적용할 기능은 하트를 탭햇을 때 만난 날짜를 설정할 수 있는 다이얼로그를
+보여주고 날짜를 탭하고 화면 밖을 탭했을 때 만난 날짜가 설정한 날짜로 수정되도록 하는 기능입니다.
+
+따라서 onHeartPressed 함수에 날짜만 선택할 수 있는 쿠퍼티노 다이얼로그를 생성합니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/217710778-7db324dd-738c-4178-9fcc-57a69d9a4ed0.png)
+### [하트를 눌렀을 때]
+![image](https://user-images.githubusercontent.com/58906858/217710804-ac0db7ab-0a0f-429a-b2dd-d51f0656b1db.png)
 
