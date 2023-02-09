@@ -11,7 +11,11 @@ class _HomeScreenState extends State<HomeScreen> {
   DateTime firstDay = DateTime.now();
 
   void onHeartPressed() {
-    print('클릭');
+    // 상태 변경 시 setState() 함수 실행
+    setState((){
+      // firstDay 변수에서 하루 빼기
+      firstDay = firstDay.subtract(Duration(days:1));
+    });
   }
 
   @override
