@@ -111,4 +111,13 @@ firstDay를 오늘 날짜로 초기화하고 하트 아이콘에 onPressedHeart 
 ![image](https://user-images.githubusercontent.com/58906858/217431687-9478920a-2f36-45ca-86c4-1f628260355b.png)   
 ![image](https://user-images.githubusercontent.com/58906858/217431762-de25e149-d1f4-441e-a76d-d82fc1b87b81.png)
 
+## 하트에 만난 날짜가 감소하는 기능 추가하기
+```
+하트를 눌렀을 때(상태변화) setState() 함수가 호출되고 만난 날짜에서 하루가 감소되고
+그 영향으로 D-Day가 하루씩 늘어나도록 기능을 추가하였습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/217709130-afa57bf3-02ed-4d95-af25-1c1227f78faa.png)
+### [하트를 눌렀을 때]
+![image](https://user-images.githubusercontent.com/58906858/217709193-19430727-35cd-42a4-a5a2-9cf216ce4873.png)
+
 
