@@ -131,3 +131,9 @@ firstDay를 오늘 날짜로 초기화하고 하트 아이콘에 onPressedHeart 
 ### [하트를 눌렀을 때]
 ![image](https://user-images.githubusercontent.com/58906858/217710804-ac0db7ab-0a0f-429a-b2dd-d51f0656b1db.png)
 
+## 설정한 날짜로 만난 날짜 변경하기
+```
+하트를 탭햇을 때 상태 관리 setState()를 사용해서 만난 날짜를 선택한 날짜가 되도록 수정하였습니다.
+쿠퍼티노 다이얼로그를 변경할 때마다 만난 날짜와 DDay가 새로 업데이트됩니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/217711280-bd3e1947-7ccf-4034-a4aa-2325ba22f557.png)
